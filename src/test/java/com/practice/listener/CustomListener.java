@@ -23,7 +23,7 @@ public class CustomListener extends BaseClass implements ITestListener{
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		
-		test.log(LogStatus.PASS, result.getName().toUpperCase() +" CLASS HAS BEEN PASSED");
+		test.log(LogStatus.PASS, result.getName().toUpperCase() +" CLASS HAS BEEN PASSED Successfully.");
 		rep.endTest(test);
 		rep.flush();
 			
