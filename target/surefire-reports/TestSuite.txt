@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.362 sec <<< FAILURE! - in TestSuite
+verifyTest(com.practice.testcases.VerifyTest)  Time elapsed: 0.269 sec  <<< FAILURE!
+java.lang.AssertionError: Forcefully Failing to see whether Screenshot is generating or not
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.practice.testcases.VerifyTest.verifyTest(VerifyTest.java:17)
+

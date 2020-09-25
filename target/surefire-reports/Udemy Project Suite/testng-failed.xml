@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Udemy Project Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.practice.listener.CustomListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Verify Test(failed)">
+    <classes>
+      <class name="com.practice.testcases.VerifyTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.practice.testcases.VerifyTest -->
+    </classes>
+  </test> <!-- Verify Test(failed) -->
+</suite> <!-- Failed suite [Udemy Project Suite] -->
